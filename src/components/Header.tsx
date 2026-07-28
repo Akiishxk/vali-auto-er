@@ -25,14 +25,14 @@ export const Header: React.FC = () => {
             </span>
           </div>
 
-          {/* Prominent 24/7 Call Answering & Anytime Booking Signs */}
+          {/* Prominent 24/7 Call & Text Signs */}
           <div className="flex items-center space-x-2 text-xs font-black">
             <span className="inline-flex items-center px-2.5 py-0.5 rounded bg-zinc-900 border border-[#84cc16] text-[#84cc16] uppercase tracking-wide">
               <Phone className="w-3 h-3 mr-1 fill-[#84cc16]" />
               Answers Calls 24 Hours a Day
             </span>
             <span className="hidden sm:inline-flex items-center px-2.5 py-0.5 rounded bg-zinc-900 border border-zinc-700 text-white uppercase tracking-wide">
-              📅 Book Any Time
+              💬 Call or Text 24/7 to Schedule
             </span>
           </div>
         </div>

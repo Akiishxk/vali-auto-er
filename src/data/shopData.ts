@@ -19,12 +19,12 @@ export const SHOP_INFO: ShopInfo = {
     days: "Monday – Friday",
     time: "8:00 AM – 5:00 PM",
     isOpenNow: true,
-    afterHoursNote: "Emergency calls & text inquiries taken by Dan outside regular hours!"
+    afterHoursNote: "Calls & text inquiries answered 24 hours a day, 7 days a week!"
   },
   highlights: [
     "5.0 Google Rating (100% 5-Star Verified)",
     "No Upsells or Hidden Fees",
-    "Direct Mechanic Access with Dan",
+    "24/7 Phone & Text Answering",
     "Complex Engine & Transmission Diagnostics",
     "Rapid Turnaround & Honest Service"
   ]
@@ -188,12 +188,12 @@ export const FAQ_DATA: FAQItem[] = [
   },
   {
     question: "How do I get in touch with Valley Auto E.R.?",
-    answer: "You can call us directly at (208) 713-9517 or text us at (208) 713-9517! Dan and the shop team answer phone calls and text inquiries quickly.",
+    answer: "You can call or text us directly at (208) 713-9517! Phone calls and text inquiries are answered 24 hours a day, 7 days a week.",
     category: "Services"
   },
   {
-    question: "Can I contact Dan outside regular shop hours for emergency questions?",
-    answer: "Yes! As our real Google reviews mention, Dan personally monitors calls and text messages outside regular hours when possible to help customers with roadside emergencies or urgent questions.",
+    question: "Can I call or text outside regular shop hours for emergency questions?",
+    answer: "Yes! Phone calls and text messages are answered 24 hours a day, 7 days a week to assist with roadside emergencies, scheduling, and urgent repair questions.",
     category: "Emergency"
   },
   {

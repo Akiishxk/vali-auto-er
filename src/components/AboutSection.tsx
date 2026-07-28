@@ -1,5 +1,6 @@
 import React from "react";
 import { Shield, HeartHandshake, PhoneCall } from "lucide-react";
+import valleyAutoTechImg from "../assets/images/valley_auto_tech_1785260811792.jpg";
 
 export const AboutSection: React.FC = () => {
   return (
@@ -27,7 +28,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="rounded-2xl overflow-hidden border-2 border-black shadow-xl relative group bg-black">
               <img
-                src="/src/assets/images/valley_auto_tech_1785260811792.jpg"
+                src={valleyAutoTechImg}
                 alt="Dan Master Mechanic at Valley Auto E.R."
                 className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -55,11 +56,11 @@ export const AboutSection: React.FC = () => {
             </h3>
 
             <p className="text-zinc-700 text-sm leading-relaxed font-normal">
-              Finding a trustworthy auto mechanic shouldn't feel like a gamble. When you bring your vehicle to Valley Auto E.R., you speak directly with the people working on your car.
+              Finding a trustworthy auto mechanic shouldn't feel like a gamble. When you bring your vehicle to Valley Auto E.R., you get direct, honest answers from the master technicians working on your car.
             </p>
 
             <p className="text-zinc-700 text-sm leading-relaxed font-normal">
-              Whether you need complex engine or transmission troubleshooting, a quick A/C recharge for the Boise heat, or fresh brakes, Dan walks you through the exact diagnostic findings with zero technical jargon and zero high-pressure sales tactics.
+              Whether you need complex engine or transmission troubleshooting, a quick A/C recharge for the Boise heat, or fresh brakes, Dan and the team walk you through the exact diagnostic findings with zero technical jargon and zero high-pressure sales tactics.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
@@ -74,9 +75,9 @@ export const AboutSection: React.FC = () => {
               <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200 space-y-1">
                 <div className="font-bold text-black flex items-center space-x-1.5">
                   <PhoneCall className="w-4 h-4 text-black" />
-                  <span>Direct Mechanic Access</span>
+                  <span>24/7 Call & Text Answering</span>
                 </div>
-                <p className="text-zinc-600">Speak directly with Dan about your car's progress anytime.</p>
+                <p className="text-zinc-600">Calls and text inquiries are answered 24 hours a day, 7 days a week.</p>
               </div>
             </div>
 
@@ -116,16 +117,16 @@ export const AboutSection: React.FC = () => {
                   <td className="py-3.5 px-4 text-center text-zinc-600">High Commission Push</td>
                 </tr>
                 <tr>
-                  <td className="py-3.5 px-4 font-bold text-black">Speak Directly to Tech</td>
-                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black">Always (Dan)</td>
+                  <td className="py-3.5 px-4 font-bold text-black">Direct Access to Master Tech</td>
+                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black">Always</td>
                   <td className="py-3.5 px-4 text-center text-zinc-500">Service Advisor Only</td>
                   <td className="py-3.5 px-4 text-center text-zinc-500">Desk Staff Only</td>
                 </tr>
                 <tr>
-                  <td className="py-3.5 px-4 font-bold text-black">Emergency Call Monitoring</td>
-                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black rounded-b-lg">Yes (Dan takes calls)</td>
+                  <td className="py-3.5 px-4 font-bold text-black">24/7 Phone & Text Answering</td>
+                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black rounded-b-lg">Yes (Calls Answered 24/7)</td>
                   <td className="py-3.5 px-4 text-center text-zinc-500">Closed after 5 PM</td>
-                  <td className="py-3.5 px-4 text-center text-zinc-500">Answering Service</td>
+                  <td className="py-3.5 px-4 text-center text-zinc-500">Voicemail Only</td>
                 </tr>
               </tbody>
             </table>

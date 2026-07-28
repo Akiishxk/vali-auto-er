@@ -7,10 +7,10 @@ export const StickyContactBar: React.FC = () => {
     <div className="fixed bottom-0 left-0 right-0 z-40 bg-black/95 backdrop-blur-md border-t-2 border-[#84cc16] p-2 sm:py-2.5 px-4 shadow-2xl">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
         
-        {/* 24/7 Call & Booking Badge */}
+        {/* 24/7 Call Badge */}
         <div className="hidden lg:flex items-center space-x-2 text-[11px] font-black uppercase text-[#84cc16] bg-zinc-900 px-3 py-1 rounded-lg border border-zinc-800">
           <Phone className="w-3 h-3 fill-[#84cc16]" />
-          <span>Answers Calls 24 Hours a Day • Book Any Time</span>
+          <span>Answers Calls 24 Hours a Day • Call or Text 24/7 To Schedule</span>
         </div>
 
         <div className="w-full sm:w-auto flex-1 flex items-center justify-between gap-2">

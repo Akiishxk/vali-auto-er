@@ -2,6 +2,7 @@ import React from "react";
 import { Star, Phone, MessageSquare, MapPin, Clock, CheckCircle } from "lucide-react";
 import { SHOP_INFO } from "../data/shopData";
 import { Logo } from "./Logo";
+import valleyAutoHeroImg from "../assets/images/valley_auto_hero_1785260800566.jpg";
 
 export const Hero: React.FC = () => {
   return (
@@ -63,10 +64,10 @@ export const Hero: React.FC = () => {
               </a>
             </div>
 
-            {/* Prominent 24/7 Signs */}
-            <div className="bg-black text-white p-3.5 rounded-2xl border-2 border-[#84cc16] shadow-xl flex flex-wrap items-center justify-around gap-3 text-center my-3">
+            {/* Prominent 24/7 Call & Scheduling Signs */}
+            <div className="bg-black text-white p-4 rounded-2xl border-2 border-[#84cc16] shadow-xl flex flex-wrap items-center justify-around gap-3 text-center my-3">
               <div className="flex items-center space-x-2.5">
-                <div className="w-8 h-8 rounded-full bg-[#84cc16] text-black flex items-center justify-center font-black flex-shrink-0">
+                <div className="w-9 h-9 rounded-full bg-[#84cc16] text-black flex items-center justify-center font-black flex-shrink-0">
                   <Phone className="w-4 h-4 fill-black text-black" />
                 </div>
                 <div className="text-left">
@@ -82,15 +83,15 @@ export const Hero: React.FC = () => {
               <div className="hidden sm:block text-zinc-700 font-black">|</div>
 
               <div className="flex items-center space-x-2.5">
-                <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center font-black flex-shrink-0 text-sm">
-                  📅
+                <div className="w-9 h-9 rounded-full bg-zinc-800 text-[#84cc16] border border-zinc-700 flex items-center justify-center font-black flex-shrink-0">
+                  <MessageSquare className="w-4 h-4" />
                 </div>
                 <div className="text-left">
                   <div className="text-xs sm:text-sm font-black uppercase text-white tracking-wide">
-                    Book Any Time
+                    24/7 Phone & Text Assistance
                   </div>
                   <div className="text-[11px] text-zinc-300 font-medium">
-                    Schedule online 24/7/365
+                    Call or text (208) 713-9517 anytime 24/7
                   </div>
                 </div>
               </div>
@@ -104,7 +105,7 @@ export const Hero: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-4 h-4 text-[#84cc16] flex-shrink-0" />
-                <span>Book Any Time 24/7</span>
+                <span>Call or Text 24/7 to Schedule</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-4 h-4 text-[#84cc16] flex-shrink-0" />
@@ -130,26 +131,41 @@ export const Hero: React.FC = () => {
 
           </div>
 
-          {/* Right Column: Hero Visual - Business Card Matching Layout */}
+          {/* Right Column: Hero Visual - Business Card & Shop Photo Showcase */}
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden border-2 border-black bg-black p-1.5 shadow-2xl">
               
-              {/* Business Card Showcase Container */}
+              {/* Business Card & Shop Showcase Container */}
               <div className="bg-black text-white rounded-2xl overflow-hidden border border-zinc-800">
                 
-                {/* Top Black Header Section with Lime Bars */}
-                <div className="bg-black p-6 text-center relative border-b border-zinc-800 space-y-2">
+                {/* Shop Photo Header */}
+                <div className="relative h-44 w-full bg-zinc-900 overflow-hidden border-b border-zinc-800">
+                  <img
+                    src={valleyAutoHeroImg}
+                    alt="Valley Auto E.R. Shop & Service Bay in Garden City Boise"
+                    className="w-full h-full object-cover"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                  <div className="absolute bottom-2 left-3 right-3 flex items-center justify-between text-xs font-black">
+                    <span className="px-2 py-0.5 rounded bg-[#84cc16] text-black">5.0 ★ Shop</span>
+                    <span className="text-white text-[11px] bg-black/80 px-2 py-0.5 rounded border border-zinc-700">4848 Fenton St, Boise</span>
+                  </div>
+                </div>
+
+                {/* Black Header Section with Lime Bars */}
+                <div className="bg-black p-5 text-center relative border-b border-zinc-800 space-y-2">
                   <div className="h-1 bg-[#84cc16] w-full rounded-full" />
                   
-                  <div className="py-2">
+                  <div className="py-1">
                     <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-[#84cc16] uppercase">
                       VALLEY AUTO E.R.
                     </h2>
-                    <div className="text-xs sm:text-sm font-bold text-[#84cc16] tracking-widest uppercase mt-1">
+                    <div className="text-xs sm:text-sm font-bold text-[#84cc16] tracking-widest uppercase mt-0.5">
                       DANIEL JOETZKI
                     </div>
-                    <div className="text-xs font-black text-zinc-400 tracking-wider uppercase">
-                      OWNER
+                    <div className="text-[11px] font-black text-zinc-400 tracking-wider uppercase">
+                      OWNER & MASTER TECHNICIAN
                     </div>
                   </div>
 
