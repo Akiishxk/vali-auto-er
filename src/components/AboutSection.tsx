@@ -75,9 +75,9 @@ export const AboutSection: React.FC = () => {
               <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200 space-y-1">
                 <div className="font-bold text-black flex items-center space-x-1.5">
                   <PhoneCall className="w-4 h-4 text-black" />
-                  <span>24/7 Call & Text Answering</span>
+                  <span>24/7 Call Answering</span>
                 </div>
-                <p className="text-zinc-600">Calls and text inquiries are answered 24 hours a day, 7 days a week.</p>
+                <p className="text-zinc-600">Calls answered 24/7. Texts answered during shop hours (Mon-Fri 8 AM - 5 PM).</p>
               </div>
             </div>
 
@@ -123,8 +123,8 @@ export const AboutSection: React.FC = () => {
                   <td className="py-3.5 px-4 text-center text-zinc-500">Desk Staff Only</td>
                 </tr>
                 <tr>
-                  <td className="py-3.5 px-4 font-bold text-black">24/7 Phone & Text Answering</td>
-                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black rounded-b-lg">Yes (Calls Answered 24/7)</td>
+                  <td className="py-3.5 px-4 font-bold text-black">24/7 Phone Answering</td>
+                  <td className="py-3.5 px-4 text-center bg-zinc-200 text-black font-black rounded-b-lg">Yes (Calls 24/7 • Texts Mon-Fri)</td>
                   <td className="py-3.5 px-4 text-center text-zinc-500">Closed after 5 PM</td>
                   <td className="py-3.5 px-4 text-center text-zinc-500">Voicemail Only</td>
                 </tr>

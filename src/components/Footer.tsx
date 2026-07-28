@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
                 <div>
                   <div>Mon – Fri: 8:00 AM – 5:00 PM</div>
                   <div className="text-[11px] text-[#84cc16] font-bold mt-1 uppercase">
-                    📞 Calls Answered 24 Hours a Day • Call (208) 713-9517
+                    📞 Calls Answered 24/7 • 💬 Texts Mon-Fri 8am-5pm
                   </div>
                 </div>
               </div>

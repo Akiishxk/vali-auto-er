@@ -88,10 +88,10 @@ export const Hero: React.FC = () => {
                 </div>
                 <div className="text-left">
                   <div className="text-xs sm:text-sm font-black uppercase text-white tracking-wide">
-                    24/7 Phone & Text Assistance
+                    Texts Answered Working Hours
                   </div>
                   <div className="text-[11px] text-zinc-300 font-medium">
-                    Call or text (208) 713-9517 anytime 24/7
+                    Text (208) 713-9517 Mon-Fri 8am-5pm
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export const Hero: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-4 h-4 text-[#84cc16] flex-shrink-0" />
-                <span>Call or Text 24/7 to Schedule</span>
+                <span>Texts Answered Mon-Fri 8am-5pm</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-4 h-4 text-[#84cc16] flex-shrink-0" />

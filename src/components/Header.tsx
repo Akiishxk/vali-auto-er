@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
               Answers Calls 24 Hours a Day
             </span>
             <span className="hidden sm:inline-flex items-center px-2.5 py-0.5 rounded bg-zinc-900 border border-zinc-700 text-white uppercase tracking-wide">
-              💬 Call or Text 24/7 to Schedule
+              💬 Texts Answered Mon-Fri 8am-5pm
             </span>
           </div>
         </div>

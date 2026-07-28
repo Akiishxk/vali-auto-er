@@ -19,12 +19,12 @@ export const SHOP_INFO: ShopInfo = {
     days: "Monday – Friday",
     time: "8:00 AM – 5:00 PM",
     isOpenNow: true,
-    afterHoursNote: "Calls & text inquiries answered 24 hours a day, 7 days a week!"
+    afterHoursNote: "Calls answered 24/7! Text messages answered during shop hours (Mon-Fri 8 AM - 5 PM)."
   },
   highlights: [
     "5.0 Google Rating (100% 5-Star Verified)",
     "No Upsells or Hidden Fees",
-    "24/7 Phone & Text Answering",
+    "24/7 Call Answering (Texts Mon-Fri 8-5)",
     "Complex Engine & Transmission Diagnostics",
     "Rapid Turnaround & Honest Service"
   ]

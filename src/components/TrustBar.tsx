@@ -35,8 +35,8 @@ export const TrustBar: React.FC = () => {
             <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center text-[#84cc16] mb-2">
               <Sparkles className="w-5 h-5" />
             </div>
-            <span className="text-xl font-black text-black">Call 24/7 To Book</span>
-            <p className="text-xs text-zinc-600 mt-1 font-medium">Direct Phone & Text Scheduling</p>
+            <span className="text-xl font-black text-black">Text Mon-Fri 8-5</span>
+            <p className="text-xs text-zinc-600 mt-1 font-medium">Texts Answered During Shop Hours</p>
           </div>
 
         </div>
