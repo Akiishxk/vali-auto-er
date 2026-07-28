@@ -1,0 +1,6 @@
+{
+  "name": "Valley Auto E.R.",
+  "description": "Official website for Valley Auto E.R., a 5.0-star rated auto repair shop in Boise, Idaho offering fast diagnostics, engine & transmission repair, AC service, and honest customer-first care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
